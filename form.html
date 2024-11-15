@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEV.F</title>
+</head>
+<body>
+    <h1>Pizzeria DEV.F</h1>
+    <form action="">
+        <label>
+            Nombre:
+            <input
+                type="text"
+                name="nombre"
+                placeholder="Ingresa tu nombre"
+                required
+            >
+        </label>
+        <br>
+        <br>
+        <label>
+            Email:
+            <input 
+                type="email"
+                placeholder="Ingresa tu correo"
+                name="correo"
+                required
+            >
+        </label>
+        <br>
+        <br>
+        <label >
+            Direccion
+            <input 
+                type="text"
+                required
+            >
+        </label>
+        <br>
+        <br>
+        <label>
+            Hora de entrega
+            <input
+                type="time"
+                name="hora_entrega"
+                required
+            >
+        </label>
+        <br>
+        <br>
+        <label>
+            Tipo de pizza:
+            <select name="tipo_pizza" required>
+                <option value="" selected disabled hidden>Selecciona tu pizza!</option>
+                <option value="Napolitana">Napolitana</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Vegana">Vegana</option>
+                <option value="4 Quesos">4 Quesos</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <button type="submit">Pedir</button>
+        <button type="reset">Borrar info</button>
+
+    </form>
+</body>
+</html>
